@@ -1,0 +1,122 @@
+h2 {
+  color : #0f77ed;
+  text-align: center;
+  margin: 20px 260px 0px 0px;
+}
+
+body{
+  text-align: center;
+  background-image:  url(/static/back_main.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.upload-label{
+  padding: 12px 30px;
+  background: orange;
+  margin-top: 20px;
+  position: relative;
+  right: 180px;
+  color: #fff;
+  font-size: medium;
+  transition: all .4s;
+  cursor: pointer;
+}
+
+.upload-label:hover{
+  background: rgb(255, 89, 0);
+  color: #fff;
+}
+/* .container {
+  margin-top : 50px;
+  margin-left : 100px;
+} */
+
+.img-preview {
+  width: 380px;
+  height: 380px;
+  position: relative;
+  border-style: none;
+  border: 5px solid #0e0303;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  left: 200px;
+  top: 30px;
+}
+
+.img-preview>div {
+  width: 100%;
+  height: 100%;
+  background-size: 350px 350px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+input[type="file"] {
+  display: none;
+}
+#btn-predict{
+  position: absolute;
+  top: 72px;
+  left: 500px;
+
+}
+
+
+
+.loader {
+  border: 8px solid #f3f3f3; 
+  border-top: 8px solid #3498db;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.result_img {
+  vertical-align: middle;
+  border-style: none;
+  position: absolute;
+  top: 204px;
+  right: 430px;
+  border: 5px solid #0a0202;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+#noviolations{
+  vertical-align: middle;
+  position: absolute;
+  top: 204px;
+  right: 20px;
+}
+#traffic{
+  position: absolute;
+  right: 115px;
+  top: 115px;
+
+}
+.testimg {
+  position: absolute;
+  left: 35px;
+  bottom: -82px;
+  border: 3px dotted blue;
+  width: 300px;
+  height: 50px;
+  text-align: center;
+  padding: 9px;
+  background-color: #c5c5db;
+}
+
+#cap{
+  position: absolute;
+  left: 668px;
+  bottom: 202px;
+  border: 3px dotted blue;
+  width: 300px;
+  height: 50px;
+  text-align: center;
+  padding: 9px;
+  background-color: #c5c5db;
+}
